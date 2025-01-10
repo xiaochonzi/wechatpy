@@ -42,6 +42,7 @@ class WeChatClient(BaseWeChatClient):
     user = api.WeChatUser()
     wifi = api.WeChatWiFi()
     wxa = api.WeChatWxa()
+    publisher = api.WeChatPublisher()
 
     def __init__(
         self,
